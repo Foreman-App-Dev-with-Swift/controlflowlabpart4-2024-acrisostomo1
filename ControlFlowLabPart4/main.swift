@@ -57,7 +57,17 @@ print("*** PROBLEM 4.0: BASEBALL WINNERS POSITION")
 //Test your code by changing leaguePosition values and observe the results.
 
 //Now format the code above. How? Select the code (highlight) and use CONTROL-I. It usually corrects it to the
-
+let leaguePosition = 1
+switch leaguePosition {
+case 1 :
+    print ("Champions")
+case 2 :
+    print ("Runners up")
+case 3 :
+    print ("Third place")
+default:
+    print ("Bad Season!")
+}
 print("\n")
 
 
